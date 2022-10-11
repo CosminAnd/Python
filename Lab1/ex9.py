@@ -5,7 +5,7 @@ def is_letter(c):
 
 
 def most_common_letter(string):
-    string = str(string)
+    string = str.lower(string)
     letter = ""
     number = 0
     for i in string:
