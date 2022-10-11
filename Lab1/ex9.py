@@ -1,5 +1,5 @@
 def is_letter(c):
-    if c >= 'a' and c <= 'z' or c >= 'A' and c <= 'Z':
+    if c >= 'a' and c <= 'z':
         return True
     return False
 
